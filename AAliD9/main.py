@@ -1,6 +1,6 @@
 from collections import deque
 
-with open(".idea/tekst.txt", "r", encoding="utf-8") as file:
+with open("AAliD9/.idea/tekst.txt", "r", encoding="utf-8") as file:
     words = file.read().split()
 
 sorted_words = sorted(words)
